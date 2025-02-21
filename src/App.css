@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff; /* White navbar */
+  color: #333; /* Dark text for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow below the navbar */
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+}
+
+.navbar-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #ff9800; /* Orange background for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e68900; /* Slightly darker orange on hover */
+}
+
+.btn:focus {
+  outline: none;
+}
+
+
+/* app.css */
+
+.auth-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button.btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff9800; /* Orange */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button.btn:hover {
+  background-color: #e68900; /* Darker orange */
+}
+
+.link-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.link-container a.noblock {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+
+.link-container a.noblock {
+  display: inline;
+}
+
+
+.link-container a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.browse-container {
+  padding: 20px;
+}
+
+.restaurants-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.restaurant-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 10px auto;
+
+}
+
+.menu-items {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: 250px;
+  position: relative;
+  height: 250px;
+}
+
+.viewButton {
+  background-color: #ff5e00;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 230px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+}
+
+.viewButton:hover {
+  background-color: #ff8c00;
+}
+
+
+.userIdDis {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+
+
+  /* Styling for individual buttons */
+  .buttons a {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background-color: #ff9800; /* Orange background */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+    border: 1px solid #ff9800;
+  }
+  
+
+  .btnColourChange a{
+    background-color: #f7f7f7; /* Orange background */
+    color: #2a2a2a;
+    border: 1px solid #dcdcdc;
+  }
+
+
+  .textCenter {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+.reviews-section {
+margin-top: 20px;
+text-align: left;
+}
+
+.review-card {
+background: #f9f9f9;
+padding: 5px 10px;
+}
+
+.centerDiv {
+width: 100%;
+height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.green {
+color: green;
+}
